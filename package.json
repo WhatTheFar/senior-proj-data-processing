@@ -1,0 +1,22 @@
+{
+	"name": "senior-proj-data-processing",
+	"version": "1.0.0",
+	"description": "",
+	"repository": "git@github.com:WhatTheFar/senior-proj-data-processing.git",
+	"author": "WhatTheFar <jakpat.m@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"build": "lerna run build",
+		"format": "lerna run format"
+	},
+	"devDependencies": {
+		"lerna": "^3.20.2",
+		"nodemon": "1.18.10",
+		"ts-node": "8.1.0",
+		"typescript": "^3.6.3"
+	}
+}
